@@ -1,14 +1,12 @@
 ## CRLN
 
-## Prepare dataset
+## Clone the Git repo
+```bash
+git clone 
 
-1. Please download the following datasets from the provided Google Drive link:
+Prepare dataset
 
-- LA Dataset
-- Pancreas Dataset
-- BRaTs19 Dataset
-
-Download Link: [Google Drive - Datasets](https://drive.google.com/drive/folders/1_cOBDNlMYjNG-CJFzbmWXXGPj2vvKESE?usp=drive_link)
+1. Please download the LA, Pancreas and BRaTs19 datasets from the Google Drive link:[Google Drive - Datasets](https://drive.google.com/drive/folders/1_cOBDNlMYjNG-CJFzbmWXXGPj2vvKESE?usp=drive_link)
 2. After downloading the datasets, please place them in the `./Datasets` directory and organize the folder structure as follows:
 ```bash
 Datasets/
@@ -24,6 +22,6 @@ Datasets/
 └── Pancreas/
     ├── data/
     └── datalist/
-
+##
       
 
