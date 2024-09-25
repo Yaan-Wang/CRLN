@@ -10,9 +10,20 @@
 
 Download Link: [Google Drive - Datasets](https://drive.google.com/drive/folders/1_cOBDNlMYjNG-CJFzbmWXXGPj2vvKESE?usp=drive_link)
 2. After downloading the datasets, please place them in the `./Datasets` directory and organize the folder structure as follows:
-Datasets │ ├── BRATS19 │ ├── data │ └── datalist │ ├── Left_Atrium │ ├── data │ └── datalist │ └── Pancreas ├── data └── datalist
-
-
+```bash
+Datasets/
+│
+├── BRATS19/
+│   ├── data/
+│   └── datalist/
+│
+├── Left_Atrium/
+│   ├── data/
+│   └── datalist/
+│
+└── Pancreas/
+    ├── data/
+    └── datalist/
 
       
 
