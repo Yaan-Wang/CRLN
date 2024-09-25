@@ -1,0 +1,172 @@
+2024-09-25 16:41:42,480 INFO    MainThread:427870 [internal.py:wandb_internal():95] W&B internal server running at pid: 427870, started at: 2024-09-25 16:41:42.480685
+2024-09-25 16:41:42,482 DEBUG   SenderThread:427870 [sender.py:send():235] send: header
+2024-09-25 16:41:42,482 DEBUG   SenderThread:427870 [sender.py:send():235] send: run
+2024-09-25 16:41:42,484 INFO    WriterThread:427870 [datastore.py:open_for_write():77] open: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/run-10rlhaf5.wandb
+2024-09-25 16:41:43,296 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: check_version
+2024-09-25 16:41:43,299 INFO    SenderThread:427870 [dir_watcher.py:__init__():169] watching files in: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files
+2024-09-25 16:41:43,299 INFO    SenderThread:427870 [sender.py:_start_run_threads():815] run started: 10rlhaf5 with start time 1727253702
+2024-09-25 16:41:43,299 DEBUG   SenderThread:427870 [sender.py:send():235] send: summary
+2024-09-25 16:41:43,299 INFO    SenderThread:427870 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-25 16:41:43,300 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: check_version
+2024-09-25 16:41:43,550 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: run_start
+2024-09-25 16:41:43,555 DEBUG   HandlerThread:427870 [meta.py:__init__():37] meta init
+2024-09-25 16:41:43,555 DEBUG   HandlerThread:427870 [meta.py:__init__():51] meta init done
+2024-09-25 16:41:43,555 DEBUG   HandlerThread:427870 [meta.py:probe():211] probe
+2024-09-25 16:41:43,561 DEBUG   HandlerThread:427870 [git.py:repo():33] git repository is invalid
+2024-09-25 16:41:43,561 DEBUG   HandlerThread:427870 [meta.py:_save_pip():55] save pip
+2024-09-25 16:41:43,562 DEBUG   HandlerThread:427870 [meta.py:_save_pip():69] save pip done
+2024-09-25 16:41:43,562 DEBUG   HandlerThread:427870 [meta.py:_save_conda():76] save conda
+2024-09-25 16:41:43,731 DEBUG   HandlerThread:427870 [meta.py:_save_conda():86] save conda done
+2024-09-25 16:41:43,731 DEBUG   HandlerThread:427870 [meta.py:probe():249] probe done
+2024-09-25 16:41:43,752 DEBUG   SenderThread:427870 [sender.py:send():235] send: files
+2024-09-25 16:41:43,752 INFO    SenderThread:427870 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2024-09-25 16:41:43,754 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-25 16:41:43,754 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: stop_status
+2024-09-25 16:41:44,299 INFO    Thread-7  :427870 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/conda-environment.yaml
+2024-09-25 16:41:44,299 INFO    Thread-7  :427870 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/wandb-metadata.json
+2024-09-25 16:41:44,299 INFO    Thread-7  :427870 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/requirements.txt
+2024-09-25 16:41:44,299 INFO    Thread-7  :427870 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/wandb-summary.json
+2024-09-25 16:41:44,299 INFO    Thread-7  :427870 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/output.log
+2024-09-25 16:41:44,561 DEBUG   SenderThread:427870 [sender.py:send():235] send: telemetry
+2024-09-25 16:41:45,350 INFO    Thread-11 :427870 [upload_job.py:push():137] Uploaded file /tmp/tmpzou4l1pvwandb/m2koolrg-wandb-metadata.json
+2024-09-25 16:41:45,469 DEBUG   SenderThread:427870 [sender.py:send():235] send: telemetry
+2024-09-25 16:41:48,262 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:48,262 DEBUG   SenderThread:427870 [sender.py:send():235] send: exit
+2024-09-25 16:41:48,263 INFO    SenderThread:427870 [sender.py:send_exit():371] handling exit code: 1
+2024-09-25 16:41:48,263 INFO    SenderThread:427870 [sender.py:send_exit():373] handling runtime: 4
+2024-09-25 16:41:48,266 INFO    SenderThread:427870 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-25 16:41:48,267 INFO    SenderThread:427870 [sender.py:send_exit():379] send defer
+2024-09-25 16:41:48,267 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:48,268 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:48,268 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 0
+2024-09-25 16:41:48,268 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:48,268 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 0
+2024-09-25 16:41:48,269 INFO    SenderThread:427870 [sender.py:transition_state():392] send defer: 1
+2024-09-25 16:41:48,269 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:48,269 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 1
+2024-09-25 16:41:48,300 INFO    Thread-7  :427870 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/wandb-summary.json
+2024-09-25 16:41:48,321 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:48,321 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 1
+2024-09-25 16:41:48,321 INFO    SenderThread:427870 [sender.py:transition_state():392] send defer: 2
+2024-09-25 16:41:48,321 DEBUG   SenderThread:427870 [sender.py:send():235] send: stats
+2024-09-25 16:41:48,321 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:48,321 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 2
+2024-09-25 16:41:48,321 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:48,321 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 2
+2024-09-25 16:41:48,321 INFO    SenderThread:427870 [sender.py:transition_state():392] send defer: 3
+2024-09-25 16:41:48,322 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:48,322 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 3
+2024-09-25 16:41:48,322 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:48,322 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 3
+2024-09-25 16:41:48,322 INFO    SenderThread:427870 [sender.py:transition_state():392] send defer: 4
+2024-09-25 16:41:48,322 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:48,322 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 4
+2024-09-25 16:41:48,322 DEBUG   SenderThread:427870 [sender.py:send():235] send: summary
+2024-09-25 16:41:48,322 INFO    SenderThread:427870 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-25 16:41:48,322 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:48,322 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 4
+2024-09-25 16:41:48,322 INFO    SenderThread:427870 [sender.py:transition_state():392] send defer: 5
+2024-09-25 16:41:48,322 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:48,323 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 5
+2024-09-25 16:41:48,323 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:48,323 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 5
+2024-09-25 16:41:48,369 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:49,063 INFO    SenderThread:427870 [sender.py:transition_state():392] send defer: 6
+2024-09-25 16:41:49,063 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:49,063 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:49,063 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 6
+2024-09-25 16:41:49,064 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:49,064 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 6
+2024-09-25 16:41:49,064 INFO    SenderThread:427870 [dir_watcher.py:finish():283] shutting down directory watcher
+2024-09-25 16:41:49,165 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:49,301 INFO    Thread-7  :427870 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/wandb-summary.json
+2024-09-25 16:41:49,302 INFO    SenderThread:427870 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/config.yaml
+2024-09-25 16:41:49,302 INFO    SenderThread:427870 [dir_watcher.py:finish():313] scan: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files
+2024-09-25 16:41:49,302 INFO    SenderThread:427870 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/output.log output.log
+2024-09-25 16:41:49,303 INFO    SenderThread:427870 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/config.yaml config.yaml
+2024-09-25 16:41:49,303 INFO    SenderThread:427870 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/requirements.txt requirements.txt
+2024-09-25 16:41:49,308 INFO    SenderThread:427870 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/wandb-summary.json wandb-summary.json
+2024-09-25 16:41:49,314 INFO    SenderThread:427870 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/wandb-metadata.json wandb-metadata.json
+2024-09-25 16:41:49,314 INFO    SenderThread:427870 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/conda-environment.yaml conda-environment.yaml
+2024-09-25 16:41:49,315 INFO    SenderThread:427870 [sender.py:transition_state():392] send defer: 7
+2024-09-25 16:41:49,315 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:49,321 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:49,321 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 7
+2024-09-25 16:41:49,322 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:49,327 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 7
+2024-09-25 16:41:49,327 INFO    SenderThread:427870 [file_pusher.py:finish():145] shutting down file pusher
+2024-09-25 16:41:49,417 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:49,418 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:49,520 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:49,520 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:49,622 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:49,623 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:49,725 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:49,725 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:49,827 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:49,827 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:49,929 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:49,929 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:50,031 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:50,031 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:50,133 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:50,134 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:50,236 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:50,236 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:50,338 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:50,339 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:50,440 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:50,441 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:50,543 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:50,543 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:50,584 INFO    Thread-12 :427870 [upload_job.py:push():137] Uploaded file /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/config.yaml
+2024-09-25 16:41:50,645 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:50,646 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:50,689 INFO    Thread-15 :427870 [upload_job.py:push():137] Uploaded file /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/conda-environment.yaml
+2024-09-25 16:41:50,703 INFO    Thread-14 :427870 [upload_job.py:push():137] Uploaded file /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/wandb-summary.json
+2024-09-25 16:41:50,748 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:50,749 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:50,851 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:50,851 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:50,954 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:50,954 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:51,056 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:51,057 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:51,159 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:51,159 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:51,196 INFO    Thread-13 :427870 [upload_job.py:push():137] Uploaded file /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/files/requirements.txt
+2024-09-25 16:41:51,261 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:51,261 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:51,363 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:51,364 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:51,396 INFO    Thread-6  :427870 [sender.py:transition_state():392] send defer: 8
+2024-09-25 16:41:51,397 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:51,397 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 8
+2024-09-25 16:41:51,397 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:51,398 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 8
+2024-09-25 16:41:51,466 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:51,790 INFO    SenderThread:427870 [sender.py:transition_state():392] send defer: 9
+2024-09-25 16:41:51,790 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:51,791 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:51,791 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 9
+2024-09-25 16:41:51,791 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:51,792 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 9
+2024-09-25 16:41:51,792 INFO    SenderThread:427870 [sender.py:transition_state():392] send defer: 10
+2024-09-25 16:41:51,793 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: defer
+2024-09-25 16:41:51,793 DEBUG   SenderThread:427870 [sender.py:send():235] send: final
+2024-09-25 16:41:51,794 INFO    HandlerThread:427870 [handler.py:handle_request_defer():164] handle defer: 10
+2024-09-25 16:41:51,794 DEBUG   SenderThread:427870 [sender.py:send():235] send: footer
+2024-09-25 16:41:51,794 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: defer
+2024-09-25 16:41:51,794 INFO    SenderThread:427870 [sender.py:send_request_defer():388] handle sender defer: 10
+2024-09-25 16:41:51,892 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: poll_exit
+2024-09-25 16:41:51,893 DEBUG   SenderThread:427870 [sender.py:send_request():249] send_request: poll_exit
+2024-09-25 16:41:51,893 INFO    SenderThread:427870 [file_pusher.py:join():150] waiting for file pusher
+2024-09-25 16:41:53,415 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: sampled_history
+2024-09-25 16:41:53,417 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: get_summary
+2024-09-25 16:41:53,418 DEBUG   HandlerThread:427870 [handler.py:handle_request():141] handle_request: shutdown
+2024-09-25 16:41:53,419 INFO    HandlerThread:427870 [handler.py:finish():790] shutting down handler
+2024-09-25 16:41:53,794 INFO    WriterThread:427870 [datastore.py:close():281] close: /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/wandb/run-20240925_164142-10rlhaf5/run-10rlhaf5.wandb
+2024-09-25 16:41:54,313 INFO    SenderThread:427870 [sender.py:finish():1107] shutting down sender
+2024-09-25 16:41:54,313 INFO    SenderThread:427870 [file_pusher.py:finish():145] shutting down file pusher
+2024-09-25 16:41:54,313 INFO    SenderThread:427870 [file_pusher.py:join():150] waiting for file pusher
+2024-09-25 16:41:54,316 INFO    MainThread:427870 [internal.py:handle_exit():82] Internal process exited

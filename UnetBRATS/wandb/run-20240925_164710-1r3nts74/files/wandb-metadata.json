@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.15.0-113-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.10",
+    "heartbeatAt": "2024-09-25T08:47:11.631992",
+    "startedAt": "2024-09-25T08:47:10.271458",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [
+        "--config",
+        "/home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/configs/config_25.json"
+    ],
+    "state": "running",
+    "program": "train_semisup.py",
+    "codePath": "train_semisup.py",
+    "host": "wyy-System-Product-Name",
+    "username": "wyy",
+    "executable": "/home/wyy/anaconda3/envs/tracoco/bin/python"
+}

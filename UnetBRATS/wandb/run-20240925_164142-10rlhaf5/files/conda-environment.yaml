@@ -1,0 +1,6 @@
+name: tracoco
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
+prefix: /home/wyy/anaconda3/envs/tracoco/envs/tracoco

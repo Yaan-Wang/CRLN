@@ -1,0 +1,1 @@
+nohup python boot_tsne.py --config  /home/wyy/PycharmProjects/ss/medical/CRLN/UnetBRATS/configs/config_25.json &
