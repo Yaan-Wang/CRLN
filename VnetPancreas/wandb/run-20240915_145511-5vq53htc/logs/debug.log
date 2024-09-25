@@ -1,0 +1,25 @@
+2024-09-15 14:55:11,984 INFO    MainThread:7 [wandb_setup.py:_flush():75] Loading settings from /user/HS502/yw01954/.config/wandb/settings
+2024-09-15 14:55:11,984 INFO    MainThread:7 [wandb_setup.py:_flush():75] Loading settings from /mnt/fast/nobackup/scratch4weeks/yw01954/semi-med/laptap10/exp_paper/CRLN/VnetPancreas/wandb/settings
+2024-09-15 14:55:11,984 INFO    MainThread:7 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2024-09-15 14:55:11,984 INFO    MainThread:7 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'train_semisup.py', 'program': 'train_semisup.py'}
+2024-09-15 14:55:11,985 INFO    MainThread:7 [wandb_init.py:_log_setup():438] Logging user logs to /mnt/fast/nobackup/scratch4weeks/yw01954/semi-med/laptap10/exp_paper/CRLN/VnetPancreas/wandb/run-20240915_145511-5vq53htc/logs/debug.log
+2024-09-15 14:55:11,985 INFO    MainThread:7 [wandb_init.py:_log_setup():439] Logging internal logs to /mnt/fast/nobackup/scratch4weeks/yw01954/semi-med/laptap10/exp_paper/CRLN/VnetPancreas/wandb/run-20240915_145511-5vq53htc/logs/debug-internal.log
+2024-09-15 14:55:11,985 INFO    MainThread:7 [wandb_init.py:init():472] calling init triggers
+2024-09-15 14:55:11,985 INFO    MainThread:7 [wandb_init.py:init():476] wandb.init called with sweep_config: {}
+config: {}
+2024-09-15 14:55:11,985 INFO    MainThread:7 [wandb_init.py:init():525] starting backend
+2024-09-15 14:55:11,985 INFO    MainThread:7 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-09-15 14:55:12,008 INFO    MainThread:7 [backend.py:ensure_launched():219] starting backend process...
+2024-09-15 14:55:12,023 INFO    MainThread:7 [backend.py:ensure_launched():225] started backend process with pid: 21
+2024-09-15 14:55:12,024 INFO    MainThread:7 [wandb_init.py:init():534] backend started and connected
+2024-09-15 14:55:12,032 INFO    MainThread:7 [wandb_init.py:init():598] updated telemetry
+2024-09-15 14:55:12,036 INFO    MainThread:7 [wandb_init.py:init():629] communicating run to backend with 30 second timeout
+2024-09-15 14:55:13,110 INFO    MainThread:7 [wandb_run.py:_on_init():1922] communicating current version
+2024-09-15 14:55:13,166 INFO    MainThread:7 [wandb_run.py:_on_init():1926] got version response upgrade_message: "wandb version 0.18.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-09-15 14:55:13,167 INFO    MainThread:7 [wandb_init.py:init():660] starting run threads in backend
+2024-09-15 14:55:13,256 INFO    MainThread:7 [wandb_run.py:_console_start():1896] atexit reg
+2024-09-15 14:55:13,257 INFO    MainThread:7 [wandb_run.py:_redirect():1769] redirect: SettingsConsole.REDIRECT
+2024-09-15 14:55:13,258 INFO    MainThread:7 [wandb_run.py:_redirect():1774] Redirecting console.
+2024-09-15 14:55:13,259 INFO    MainThread:7 [wandb_run.py:_redirect():1830] Redirects installed.
+2024-09-15 14:55:13,260 INFO    MainThread:7 [wandb_init.py:init():685] run started, returning control to user process

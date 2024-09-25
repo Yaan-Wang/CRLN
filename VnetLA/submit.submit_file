@@ -1,0 +1,79 @@
+#---------------------------------------------
+# Name your batch so it's easy to distinguish in the q.
+JobBatchName = "wyy-med-br-$(cluster)"
+
+# --------------------------------------------
+# Executable and its arguments
+
+executable = /bin/bash
+# arguments  = /vol/research/deepvisrep/projects/codes/hashingresearch/bscripts/condor_imagenet.sh $(process)
+
+# ---------------------------------------------------
+# Universe (vanilla, docker)
+#universe = vanilla
+universe         = docker
+#docker_image     = nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
+docker_image      = thecanadianroot/opencv-cuda:latest
+
+# -------------------------------------------------
+# Event, out and error logs
+log    = c$(cluster).p$(process).log
+output = c$(cluster).p$(process).out
+error  = c$(cluster).p$(process).error
+
+stream_output = true
+stream_error = true
+
+# -----------------------------------
+# File Transfer, Input, Output
+should_transfer_files = YES
+
+# -------------------------------------
+# Requirements for the Job
+# Use Storenext for faster file transfer - omit if using on orca which doesn't have any stornext machines
+# Request a GPU with more that 4.5GB and less that 17GB of RAM
+# Avoid old machines that can't run CUDA 9, 10, etc.
+
+# requirements = (CUDAGlobalMemoryMb > 4500) && \
+#                (HasStornext) && \
+#                (HasDocker) && \
+#                (CUDACapability > 2.0)
+               
+requirements = (CUDAGlobalMemoryMb > 4500) && \
+               (HasWeka) && \
+               (HasDocker) && \
+               (CUDACapability > 2.0) &&\
+               (CUDADeviceName == "NVIDIA GeForce RTX 3090")
+# && (machine != "aisurrey07.surrey.ac.uk")
+# && (machine != "aisurrey13.surrey.ac.uk") && (machine != "aisurrey14.surrey.ac.uk") && (machine != "aisurrey08.surrey.ac.uk")
+
+# Clusters with project machines e.g cvssp-condor
+# If you want to avoid ProjectOwned machine other that projects that you're part of, you can add:
+
+# ((NotProjectOwned) || (machine == "mymachine1.eps.surrey.ac.uk") || (machine == "mymachine2.eps.surrey.ac.uk"))
+
+# environment = "TORCH_HOME=/vol/research/deepvisrep/.cache/torch"
+#environment = "mount=$ENV(PWD)"
+#environment = "TORCH_HOME=/mnt/fast/nobackup/users/kn00451/.cache/torch ROOTDIR=$ENV(PWD) HF_DATASETS_CACHE=/mnt/fast/nobackup/users/kn00451/.cache/huggingface/datasets HUGGINGFACE_HUB_CACHE=/mnt/fast/nobackup/users/kn00451/.cache/huggingface/hub HF_HOME=/mnt/fast/nobackup/users/kn00451/.cache/huggingface ACCELERATE_MIXED_PRECISION=fp16"
+
+# --------------------------------------
+# Resources
+request_GPUs     = 1
+# this needs to be specified for the AI@Surrey cluster if requesting a GPU
++GPUMem          = 18000  
+request_CPUs     = 4
+request_memory   = 40G
+
+#This job will complete in less than 1 hour
++JobRunTime = 72
+
+#This job can checkpoint
++CanCheckpoint = true
+
+# -----------------------------------
+# Queue commands (each line is generated in cvplws214:run_compute_codes.py)
+queue arguments from (
+   # /vol/research/wyy-semisupervised-anomaly-detection/semi-med/my-4-3-med/pan.sh
+   $ENV(PWD)/la.sh
+    # $ENV(PWD)/run_ti_c2i_shuffle_condor_dinov2_snr_intinputs_drop_better_k256_droprate_mask_dinocls_attnloss.sh
+)

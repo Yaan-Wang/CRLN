@@ -1,0 +1,25 @@
+2024-09-24 23:35:30,897 INFO    MainThread:375302 [wandb_setup.py:_flush():75] Loading settings from /home/wyy/.config/wandb/settings
+2024-09-24 23:35:30,897 INFO    MainThread:375302 [wandb_setup.py:_flush():75] Loading settings from /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/settings
+2024-09-24 23:35:30,897 INFO    MainThread:375302 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2024-09-24 23:35:30,897 INFO    MainThread:375302 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'train_semisup.py', 'program': 'train_semisup.py'}
+2024-09-24 23:35:30,897 INFO    MainThread:375302 [wandb_init.py:_log_setup():438] Logging user logs to /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/logs/debug.log
+2024-09-24 23:35:30,897 INFO    MainThread:375302 [wandb_init.py:_log_setup():439] Logging internal logs to /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/logs/debug-internal.log
+2024-09-24 23:35:30,897 INFO    MainThread:375302 [wandb_init.py:init():472] calling init triggers
+2024-09-24 23:35:30,897 INFO    MainThread:375302 [wandb_init.py:init():476] wandb.init called with sweep_config: {}
+config: {}
+2024-09-24 23:35:30,897 INFO    MainThread:375302 [wandb_init.py:init():525] starting backend
+2024-09-24 23:35:30,897 INFO    MainThread:375302 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-09-24 23:35:30,903 INFO    MainThread:375302 [backend.py:ensure_launched():219] starting backend process...
+2024-09-24 23:35:30,906 INFO    MainThread:375302 [backend.py:ensure_launched():225] started backend process with pid: 375334
+2024-09-24 23:35:30,907 INFO    MainThread:375302 [wandb_init.py:init():534] backend started and connected
+2024-09-24 23:35:30,909 INFO    MainThread:375302 [wandb_init.py:init():598] updated telemetry
+2024-09-24 23:35:30,910 INFO    MainThread:375302 [wandb_init.py:init():629] communicating run to backend with 30 second timeout
+2024-09-24 23:35:32,023 INFO    MainThread:375302 [wandb_run.py:_on_init():1922] communicating current version
+2024-09-24 23:35:32,383 INFO    MainThread:375302 [wandb_run.py:_on_init():1926] got version response upgrade_message: "wandb version 0.18.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-09-24 23:35:32,383 INFO    MainThread:375302 [wandb_init.py:init():660] starting run threads in backend
+2024-09-24 23:35:32,614 INFO    MainThread:375302 [wandb_run.py:_console_start():1896] atexit reg
+2024-09-24 23:35:32,614 INFO    MainThread:375302 [wandb_run.py:_redirect():1769] redirect: SettingsConsole.REDIRECT
+2024-09-24 23:35:32,614 INFO    MainThread:375302 [wandb_run.py:_redirect():1774] Redirecting console.
+2024-09-24 23:35:32,615 INFO    MainThread:375302 [wandb_run.py:_redirect():1830] Redirects installed.
+2024-09-24 23:35:32,615 INFO    MainThread:375302 [wandb_init.py:init():685] run started, returning control to user process

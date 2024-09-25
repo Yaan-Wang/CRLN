@@ -1,0 +1,298 @@
+2024-09-24 23:35:31,210 INFO    MainThread:375334 [internal.py:wandb_internal():95] W&B internal server running at pid: 375334, started at: 2024-09-24 23:35:31.210721
+2024-09-24 23:35:31,212 INFO    WriterThread:375334 [datastore.py:open_for_write():77] open: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/run-b5wfklos.wandb
+2024-09-24 23:35:31,212 DEBUG   SenderThread:375334 [sender.py:send():235] send: header
+2024-09-24 23:35:31,212 DEBUG   SenderThread:375334 [sender.py:send():235] send: run
+2024-09-24 23:35:32,024 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: check_version
+2024-09-24 23:35:32,032 INFO    SenderThread:375334 [dir_watcher.py:__init__():169] watching files in: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files
+2024-09-24 23:35:32,033 INFO    SenderThread:375334 [sender.py:_start_run_threads():815] run started: b5wfklos with start time 1727192130
+2024-09-24 23:35:32,033 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:35:32,033 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:35:32,033 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: check_version
+2024-09-24 23:35:32,383 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: run_start
+2024-09-24 23:35:32,386 DEBUG   HandlerThread:375334 [meta.py:__init__():37] meta init
+2024-09-24 23:35:32,386 DEBUG   HandlerThread:375334 [meta.py:__init__():51] meta init done
+2024-09-24 23:35:32,386 DEBUG   HandlerThread:375334 [meta.py:probe():211] probe
+2024-09-24 23:35:32,392 DEBUG   HandlerThread:375334 [git.py:repo():33] git repository is invalid
+2024-09-24 23:35:32,392 DEBUG   HandlerThread:375334 [meta.py:_save_pip():55] save pip
+2024-09-24 23:35:32,392 DEBUG   HandlerThread:375334 [meta.py:_save_pip():69] save pip done
+2024-09-24 23:35:32,392 DEBUG   HandlerThread:375334 [meta.py:_save_conda():76] save conda
+2024-09-24 23:35:32,588 DEBUG   HandlerThread:375334 [meta.py:_save_conda():86] save conda done
+2024-09-24 23:35:32,588 DEBUG   HandlerThread:375334 [meta.py:probe():249] probe done
+2024-09-24 23:35:32,611 DEBUG   SenderThread:375334 [sender.py:send():235] send: files
+2024-09-24 23:35:32,611 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2024-09-24 23:35:32,614 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:35:32,614 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:35:33,033 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/wandb-metadata.json
+2024-09-24 23:35:33,034 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/wandb-summary.json
+2024-09-24 23:35:33,034 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:35:33,034 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/conda-environment.yaml
+2024-09-24 23:35:33,034 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/requirements.txt
+2024-09-24 23:35:33,384 DEBUG   SenderThread:375334 [sender.py:send():235] send: telemetry
+2024-09-24 23:35:34,629 INFO    Thread-11 :375334 [upload_job.py:push():137] Uploaded file /tmp/tmpgwaz_wztwandb/1w2ewop9-wandb-metadata.json
+2024-09-24 23:35:48,385 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:35:48,385 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:36:00,563 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:36:03,040 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/config.yaml
+2024-09-24 23:36:04,170 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:36:04,170 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:36:19,983 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:36:19,983 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:36:30,732 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:36:36,364 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:36:36,364 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:36:52,117 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:36:52,118 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:37:00,909 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:37:07,870 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:37:07,871 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:37:23,638 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:37:23,638 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:37:31,079 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:37:39,436 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:37:39,436 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:37:55,282 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:37:55,282 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:38:01,243 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:38:11,026 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:38:11,026 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:38:26,855 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:38:26,855 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:38:31,411 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:38:42,593 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:38:42,593 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:38:58,443 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:38:58,443 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:39:01,587 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:39:14,292 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:39:14,293 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:39:17,085 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:19,085 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:23,086 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:25,086 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:27,087 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:29,087 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:30,207 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:39:30,207 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:39:31,738 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:39:35,088 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:37,089 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:41,090 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:45,091 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:45,994 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:39:45,995 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:39:49,091 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:51,092 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:55,093 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:39:57,093 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:40:01,094 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:40:01,886 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:40:03,344 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:40:03,344 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:40:05,095 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:40:07,095 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:40:09,095 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:40:13,096 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:40:17,097 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:40:19,112 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:40:19,112 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:40:20,691 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:40:20,692 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:40:20,692 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:40:20,692 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:40:20,692 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:40:20,692 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:40:20,693 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:40:20,693 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:40:20,693 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:40:20,693 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:40:20,693 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:40:20,693 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:40:20,694 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:40:20,694 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:40:20,694 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:40:20,694 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:40:20,694 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:40:20,694 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:40:20,694 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:40:20,694 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:40:21,098 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/wandb-summary.json
+2024-09-24 23:40:23,098 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:40:32,033 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:40:34,890 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:40:34,891 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:40:50,888 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:40:50,889 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:41:02,204 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:41:07,027 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:41:07,027 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:41:22,838 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:41:22,838 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:41:32,358 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:41:38,620 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:41:38,621 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:41:54,377 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:41:54,377 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:42:02,513 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:42:10,129 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:42:10,129 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:42:25,897 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:42:25,897 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:42:32,663 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:42:41,660 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:42:41,660 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:42:57,672 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:42:57,673 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:43:02,842 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:43:13,442 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:43:13,442 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:43:29,231 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:43:29,231 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:43:32,997 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:43:44,983 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:43:44,983 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:44:00,768 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:44:00,769 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:44:03,158 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:44:16,604 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:44:16,605 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:44:32,330 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:44:32,330 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:44:33,310 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:44:39,151 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:44:41,151 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:44:45,152 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:44:48,123 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:44:48,123 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:44:49,153 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:44:53,153 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:44:55,154 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:01,155 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:03,155 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:03,497 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:45:04,036 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:45:04,037 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:45:07,156 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:12,157 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:16,157 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:18,158 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:19,835 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:45:19,835 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:45:22,158 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:26,159 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:28,160 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:30,160 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:33,640 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:45:34,161 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:35,678 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:45:35,678 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:45:36,161 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:40,162 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:44,163 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:46,544 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:45:46,544 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:45:46,544 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:45:46,545 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:45:46,544 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:45:46,545 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:45:46,545 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:45:46,545 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:45:46,546 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:45:46,546 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:45:46,546 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:45:46,546 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:45:46,546 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: partial_history
+2024-09-24 23:45:46,553 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:45:46,553 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:45:46,553 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:45:46,553 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:45:46,553 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:45:46,553 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:45:46,554 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:45:46,554 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:45:46,554 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:45:46,554 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:45:46,554 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:45:46,554 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:45:46,554 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:45:46,554 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:45:46,554 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:45:46,554 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:45:46,554 DEBUG   SenderThread:375334 [sender.py:send():235] send: history
+2024-09-24 23:45:46,554 DEBUG   SenderThread:375334 [sender.py:send():235] send: summary
+2024-09-24 23:45:46,554 INFO    SenderThread:375334 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2024-09-24 23:45:47,163 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/wandb-summary.json
+2024-09-24 23:45:48,164 INFO    Thread-7  :375334 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:45:51,490 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:45:51,490 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:46:03,784 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:46:07,277 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:46:07,277 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:46:23,099 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:46:23,099 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:46:33,955 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:46:38,853 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:46:38,853 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:46:54,996 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:46:54,996 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:47:04,126 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:47:10,828 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:47:10,829 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:47:26,577 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:47:26,577 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:47:34,271 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:47:43,271 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:47:43,271 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:48:00,606 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:48:00,606 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:48:04,433 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:48:16,391 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:48:16,391 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:48:32,158 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:48:32,158 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:48:34,590 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:48:47,899 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:48:47,900 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:49:03,688 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:49:03,688 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:49:04,743 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:49:19,451 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:49:19,451 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:49:34,907 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:49:37,927 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:49:37,928 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:49:53,746 DEBUG   HandlerThread:375334 [handler.py:handle_request():141] handle_request: stop_status
+2024-09-24 23:49:53,746 DEBUG   SenderThread:375334 [sender.py:send_request():249] send_request: stop_status
+2024-09-24 23:50:05,033 WARNING MainThread:375334 [internal.py:is_dead():388] Internal process exiting, parent pid 375302 disappeared
+2024-09-24 23:50:05,033 ERROR   MainThread:375334 [internal.py:wandb_internal():151] Internal process shutdown.
+2024-09-24 23:50:05,087 INFO    HandlerThread:375334 [handler.py:finish():790] shutting down handler
+2024-09-24 23:50:05,088 INFO    WriterThread:375334 [datastore.py:close():281] close: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/run-b5wfklos.wandb
+2024-09-24 23:50:05,088 DEBUG   SenderThread:375334 [sender.py:send():235] send: stats
+2024-09-24 23:50:05,088 INFO    SenderThread:375334 [sender.py:finish():1107] shutting down sender
+2024-09-24 23:50:05,088 INFO    SenderThread:375334 [dir_watcher.py:finish():283] shutting down directory watcher
+2024-09-24 23:50:05,194 INFO    SenderThread:375334 [dir_watcher.py:finish():313] scan: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files
+2024-09-24 23:50:05,194 INFO    SenderThread:375334 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log output.log
+2024-09-24 23:50:05,194 INFO    SenderThread:375334 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/config.yaml config.yaml
+2024-09-24 23:50:05,194 INFO    SenderThread:375334 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/requirements.txt requirements.txt
+2024-09-24 23:50:05,194 INFO    SenderThread:375334 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/wandb-summary.json wandb-summary.json
+2024-09-24 23:50:05,194 INFO    SenderThread:375334 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/wandb-metadata.json wandb-metadata.json
+2024-09-24 23:50:05,194 INFO    SenderThread:375334 [dir_watcher.py:finish():327] scan save: /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/conda-environment.yaml conda-environment.yaml
+2024-09-24 23:50:05,196 INFO    SenderThread:375334 [file_pusher.py:finish():145] shutting down file pusher
+2024-09-24 23:50:05,196 INFO    SenderThread:375334 [file_pusher.py:join():150] waiting for file pusher
+2024-09-24 23:50:06,581 INFO    Thread-13 :375334 [upload_job.py:push():137] Uploaded file /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/config.yaml
+2024-09-24 23:50:06,596 INFO    Thread-16 :375334 [upload_job.py:push():137] Uploaded file /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/conda-environment.yaml
+2024-09-24 23:50:06,621 INFO    Thread-14 :375334 [upload_job.py:push():137] Uploaded file /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/requirements.txt
+2024-09-24 23:50:06,765 INFO    Thread-12 :375334 [upload_job.py:push():137] Uploaded file /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/output.log
+2024-09-24 23:50:07,532 INFO    Thread-15 :375334 [upload_job.py:push():137] Uploaded file /home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/wandb/run-20240924_233530-b5wfklos/files/wandb-summary.json
+2024-09-24 23:50:08,589 INFO    MainThread:375334 [internal.py:handle_exit():82] Internal process exited

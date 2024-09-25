@@ -1,0 +1,5 @@
+cd /mnt/fast/nobackup/scratch4weeks/yw01954/semi-med/laptap10/exp_paper/CRLN/VnetLA
+
+
+/mnt/fast/nobackup/scratch4weeks/yw01954/anaconda11/envs/tracoco2/bin/python boot_tsne2.py --config  /mnt/fast/nobackup/scratch4weeks/yw01954/semi-med/laptap10/exp_paper/CRLN/VnetLA/configs/config_8.json
+

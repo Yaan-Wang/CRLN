@@ -1,0 +1,26 @@
+
+{
+    "gpu": 0,
+    "num_labels": 6,
+    "lr": 2.5e-3,
+    "weight_decay": 5e-4,
+    "dataset": "pan",
+    "apply_aug": "classmix",
+    "strong_threshold": 0.97,
+    "weak_threshold": 0.7,
+    "seed": 0,
+    "xi": 0.6,
+    "num_negatives": 512,
+    "num_queries": 256,
+    "temp": 0.5,
+    "mun_pro":4,
+    "loss_weight": 1,
+    "data_path": "/home/wyy/PycharmProjects/ss/medical/CRLN/Datasets/Pancreas" ,
+    "snapshot_path": "/home/wyy/PycharmProjects/ss/medical/CRLN/VnetPancreas/saved/Vnet6",
+    "record_dir": "/home/wyy/PycharmProjects/ss/medical/CRLN/VnetPancreas/saved/Vnet6/record.txt",
+    "model_path": "/home/wyy/PycharmProjects/ss/medical/CRLN/VnetPancreas/saved/Vnet6/model/",
+    "log_dir": "/home/wyy/PycharmProjects/ss/medical/CRLN/VnetPancreas/saved/Vnet6/test_boot_last.log",
+    "load_path": null
+  }
+  
+

@@ -1,0 +1,24 @@
+
+{
+    "gpu": 0,
+    "num_labels": 16,
+    "lr": 2.5e-3,
+    "weight_decay": 5e-4,
+    "dataset": "la",
+    "apply_aug": "classmix",
+    "strong_threshold": 0.97,
+    "weak_threshold": 0.7,
+    "seed": 0,
+    "xi": 0.9,
+    "num_negatives": 512,
+    "num_queries": 256,
+    "temp": 0.5,
+    "mun_pro":16,
+    "data_path": "/home/wyy/PycharmProjects/ss/medical/CRLN/Datasets/Left_Atrium" ,
+    "snapshot_path": "/home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/saved/Vnet16",
+    "record_dir": "/home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/saved/Vnet16/record.txt",
+    "model_path": "/home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/saved/Vnet16/model/",
+    "log_dir": "/home/wyy/PycharmProjects/ss/medical/CRLN/VnetLA/saved/Vnet16/test_boot_last.log",
+    "load_path": null
+  }
+  
